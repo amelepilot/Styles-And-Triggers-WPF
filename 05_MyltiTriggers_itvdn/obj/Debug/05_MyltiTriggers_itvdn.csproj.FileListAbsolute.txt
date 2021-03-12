@@ -1,0 +1,15 @@
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\bin\Debug\05_MyltiTriggers_itvdn.exe.config
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\bin\Debug\05_MyltiTriggers_itvdn.exe
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\bin\Debug\05_MyltiTriggers_itvdn.pdb
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\obj\Debug\MainWindow.g.cs
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\obj\Debug\App.g.cs
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\obj\Debug\05_MyltiTriggers_itvdn_MarkupCompile.cache
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\obj\Debug\05_MyltiTriggers_itvdn_MarkupCompile.lref
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\obj\Debug\MainWindow.baml
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\obj\Debug\05_MyltiTriggers_itvdn.g.resources
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\obj\Debug\_05_MyltiTriggers_itvdn.Properties.Resources.resources
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\obj\Debug\05_MyltiTriggers_itvdn.csproj.GenerateResource.cache
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\obj\Debug\05_MyltiTriggers_itvdn.csproj.CoreCompileInputs.cache
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\obj\Debug\05_MyltiTriggers_itvdn.exe
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\obj\Debug\05_MyltiTriggers_itvdn.pdb
+E:\C# Lessons\Styles And Triggers WPF\05_MyltiTriggers_itvdn\obj\Debug\05_MyltiTriggers_itvdn.csprojAssemblyReference.cache

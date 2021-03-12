@@ -1,0 +1,15 @@
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\bin\Debug\02_EventSetters_itvdn.exe.config
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\bin\Debug\02_EventSetters_itvdn.exe
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\bin\Debug\02_EventSetters_itvdn.pdb
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\obj\Debug\MainWindow.g.cs
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\obj\Debug\App.g.cs
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\obj\Debug\02_EventSetters_itvdn_MarkupCompile.cache
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\obj\Debug\02_EventSetters_itvdn_MarkupCompile.lref
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\obj\Debug\MainWindow.baml
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\obj\Debug\02_EventSetters_itvdn.g.resources
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\obj\Debug\_02_EventSetters_itvdn.Properties.Resources.resources
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\obj\Debug\02_EventSetters_itvdn.csproj.GenerateResource.cache
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\obj\Debug\02_EventSetters_itvdn.csproj.CoreCompileInputs.cache
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\obj\Debug\02_EventSetters_itvdn.exe
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\obj\Debug\02_EventSetters_itvdn.pdb
+E:\C# Lessons\Styles And Triggers WPF\02_EventSetters_itvdn\obj\Debug\02_EventSetters_itvdn.csprojAssemblyReference.cache

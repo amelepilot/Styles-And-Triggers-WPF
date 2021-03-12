@@ -1,0 +1,69 @@
+﻿<Window x:Class="_04_DataTriggers_itvdn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        
+        
+       
+        xmlns:Local="clr-namespace:_04_DataTriggers_itvdn"
+        xmlns:localVi="clr-namespace:_04_DataTriggers_itvdn"
+        mc:Ignorable="d"
+        Title="DataTrigger" SizeToContent="WidthAndHeight">
+    
+    
+    <Window.Resources>
+        <!--В качестве ресурса использую класс коллекцию из кодбиха
+        она должна быть в пространстве имён, но не в классе Виндов
+        //Додумать как с  применением разным типов триггеров к одному полю-->
+
+
+        <Local:Countres x:Key="DatasList"/>        <!--Так подключается список к WPF-->
+
+        <Style TargetType="ListBoxItem">
+            
+            <Style.Triggers>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="Foreground" Value="Yellow"/>
+                </Trigger>
+                
+                
+                <DataTrigger Binding="{Binding ShortName}" Value="RU">
+                    <Setter Property="Foreground" Value="Red"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </DataTrigger>
+
+                <!--МУЛЬТИДАТА!!!!-->
+                    <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding Path=Name}" Value="Евразия"/>
+                            <Condition Binding="{Binding Path=ShortName}" Value="ЕR"/>
+                        </MultiDataTrigger.Conditions>
+
+                        <MultiDataTrigger.Setters>
+                            <Setter Property="Background" Value="Black"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </MultiDataTrigger.Setters> 
+                        
+                        
+                    </MultiDataTrigger>
+                
+                
+                
+            </Style.Triggers>
+        </Style>
+        
+    </Window.Resources>
+    
+    
+    <StackPanel>
+        <Label Content="Пример работы с DataTriger"/>
+        <ListBox Width="200"
+                 ItemsSource="{Binding Source={StaticResource DatasList}}"/>
+
+
+    </StackPanel>
+    
+    
+    
+</Window>

@@ -1,0 +1,69 @@
+﻿<Window x:Class="_05_MyltiTriggers_itvdn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_05_MyltiTriggers_itvdn"
+        mc:Ignorable="d"
+        Title="Мультитригерры" SizeToContent="WidthAndHeight">
+
+    <!--Не используем Кодбихенд1
+    //Хуевый пример - переделать и больше контролов-->
+    
+    
+    <Window.Resources>
+
+        <!--Свойство с МУЛЬТИтригером-->
+        <Style x:Key="style_MultiTriger">
+            <!--Свойство по умолч как я понял-->
+            <Style.Setters>
+                <Setter Property="Control.FontFamily" Value="Times New Roman"/>
+                <Setter Property="Control.FontSize" Value="17"/>
+                <Setter Property="Control.Foreground" Value="Green"/>
+                <Setter Property="Control.Background" Value="LightYellow"/>
+                <Setter Property="Control.Margin" Value="5"/>
+            </Style.Setters>
+
+            <!--Тригеры-->
+            <Style.Triggers>
+                <!--Conditions - это условия при которых будут применены настройкистиля ниже-->
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="Control.IsFocused" Value="True"/>
+                        <Condition Property="Control.IsMouseOver" Value="True"/>
+                    </MultiTrigger.Conditions>
+
+                    <!-- Настройки которые будут применены-->
+                    <MultiTrigger.Setters>
+                        <Setter Property="Control.Foreground" Value="Red"/>
+                        <Setter Property="Control.FontSize" Value="20"/>
+                        <Setter Property="Control.Background" Value="BlueViolet"/><!--не работает при наведении на кнопку-->
+                    </MultiTrigger.Setters>
+                
+                </MultiTrigger>
+
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+
+
+    <WrapPanel>
+
+        <StackPanel>
+            <!--В данной ситуации с лэблом мультитригер нажатия мыши на лабел не действует, а сеттры действуют-->
+            <Label Content="Label c темже myltitrigerrom.." Style="{StaticResource style_MultiTriger}"/>
+            
+            <Button Content="МультиТриггер" Style="{StaticResource style_MultiTriger}"/>
+            <Button Content="МультиТриггер 2" Style="{StaticResource style_MultiTriger}"/>
+            <Button Content="МультиТриггер 3" Style="{StaticResource style_MultiTriger}"/>
+        </StackPanel>
+
+        <StackPanel>
+            <Button Content="МультиТриггер 4" Style="{StaticResource style_MultiTriger}"/>
+            <Button Content="МультиТриггер 5" Style="{StaticResource style_MultiTriger}"/>
+            <Button Content="МультиТриггер 6" Style="{StaticResource style_MultiTriger}"/>
+        </StackPanel>
+
+    </WrapPanel>
+</Window>

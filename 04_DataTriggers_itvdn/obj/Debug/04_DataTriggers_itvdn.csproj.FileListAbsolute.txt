@@ -1,0 +1,16 @@
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\bin\Debug\04_DataTriggers_itvdn.exe.config
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\bin\Debug\04_DataTriggers_itvdn.exe
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\bin\Debug\04_DataTriggers_itvdn.pdb
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\04_DataTriggers_itvdn.csprojAssemblyReference.cache
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\MainWindow.g.cs
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\App.g.cs
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\04_DataTriggers_itvdn_MarkupCompile.cache
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\04_DataTriggers_itvdn_MarkupCompile.lref
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\MainWindow.baml
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\04_DataTriggers_itvdn.g.resources
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\_04_DataTriggers_itvdn.Properties.Resources.resources
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\04_DataTriggers_itvdn.csproj.GenerateResource.cache
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\04_DataTriggers_itvdn.csproj.CoreCompileInputs.cache
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\04_DataTriggers_itvdn.exe
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\04_DataTriggers_itvdn.pdb
+E:\C# Lessons\Styles And Triggers WPF\04_DataTriggers_itvdn\obj\Debug\GeneratedInternalTypeHelper.g.cs

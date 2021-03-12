@@ -1,0 +1,46 @@
+﻿<Window x:Class="_00_Priminenie_resuorse__otstoinii_variant__xyinya.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_00_Priminenie_resuorse__otstoinii_variant__xyinya"
+         xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="Подключение Ресурсов к Контролам" SizeToContent="WidthAndHeight">
+
+    <!--Применение стиля к каждуму контролу неудобен, но знать надо!!!!-->
+    
+    <Window.Resources>
+        <FontFamily x:Key="butFFstyle">Times New Roman</FontFamily>
+        <FontWeight x:Key="butFWstyle">Bold</FontWeight>
+        
+        <sys:Double x:Key="butSizestyle">18</sys:Double>
+        <!--    КРУТОЙ ПРИКОЛ!!!! - подключение системной папки для установки значения шрифта-+
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"-->
+
+    </Window.Resources>
+    
+    <StackPanel>
+        <Label  Padding="5" Margin="5"
+                FontFamily="{StaticResource butFFstyle}"
+                FontWeight="{StaticResource butFWstyle}"
+                Content="Кнопка с настройками: ниже: "
+                FontSize="{StaticResource butSizestyle}"
+                ToolTip="К обоим Контролам применены рессурсы"
+                />
+
+        <Button Padding="5" Margin="5"
+                FontFamily="{StaticResource butFFstyle}"
+                FontWeight="{StaticResource butFWstyle}"
+                FontSize="{StaticResource butSizestyle}"
+                Content="Кнопка с настройками"/>
+
+
+        <TextBox x:Name="xTBname" Padding="5" Margin="5"
+                FontFamily="{StaticResource butFFstyle}"
+                FontWeight="{StaticResource butFWstyle}"
+                FontSize="{StaticResource butSizestyle}"
+                 />
+
+    </StackPanel>
+</Window>

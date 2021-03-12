@@ -1,0 +1,86 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:_10_ThemeMyTest">
+
+
+    <!--Обычный СВЕТЛЫЙ СТИЛЬ-->
+
+    <Style x:Key="BaseStyle" >
+        <Style.Setters>
+            <Setter Property="Control.Margin" Value="4"/>
+            <Setter Property="Control.FontSize" Value="20"/>
+
+            <Setter Property="Control.MinWidth" Value="25"/>
+            <Setter Property="TextBox.MinWidth" Value="150"/>
+
+        </Style.Setters>
+    </Style>
+
+    <!--Window стиль -->
+    <Style x:Key="WindowStyle" TargetType="Window">
+        <Setter Property="Background" Value="LightGoldenrodYellow" />
+    </Style>
+
+    <!--TextBlock стиль -->
+    <Style x:Key="TextBlockStyle" TargetType="TextBlock" BasedOn="{StaticResource BaseStyle}">
+        <Setter Property="Background" Value="White" />
+        <Setter Property="Foreground" Value="DarkGray" />
+    </Style>
+    
+    <!--TextBox Стиль-->
+    <Style x:Key="TextBoxStyle" TargetType="TextBox"  BasedOn="{StaticResource BaseStyle}">
+        <Setter Property="Background" Value="#FFF0C374" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="BorderBrush" Value="Brown" />
+        <Setter Property="TextBox.BorderBrush" Value="Brown" />
+    </Style>
+
+
+
+    <!--Button стиль -->
+    <Style x:Key="ButtonStyle" TargetType="Button"  BasedOn="{StaticResource BaseStyle}">
+        <Setter Property="Background" Value="LightGray" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="BorderBrush" Value="DarkGray" />
+    </Style>
+
+
+    <!--ComboBox Стиль-->
+    <Style x:Name="ComboBoxStyle" TargetType="ComboBox" BasedOn="{StaticResource BaseStyle}">
+        <Setter Property="Background" Value="#FFF0C374" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="BorderBrush" Value="Brown" />
+
+    </Style>
+
+
+
+
+    <Style x:Key="BaseStyle" >
+        <Style.Setters>
+            <Setter Property="Control.Margin" Value="2"/>
+            <Setter Property="Control.FontSize" Value="18"/>
+        </Style.Setters>
+    </Style>
+
+    <!--СВЕТЛЫЙ СТИЛЬ-->
+    
+    
+    <Style x:Key="TextBlockStyle" TargetType="TextBlock" BasedOn="{StaticResource BaseStyle}">
+        <Setter Property="Background" Value="White" />
+        <Setter Property="Foreground" Value="DarkGray" />
+    </Style>
+
+    <Style x:Key="WindowStyle" TargetType="Window">
+        <Setter Property="Background" Value="White" />
+        <Setter Property="Foreground" Value="DarkGray" />
+    </Style>
+
+    <Style x:Key="ButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseStyle}">
+        <Setter Property="Background" Value="LightGray" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="BorderBrush" Value="DarkGray" />
+    </Style>
+
+
+</ResourceDictionary>

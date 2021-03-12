@@ -1,0 +1,14 @@
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\bin\Debug\01_StylesAndResorses_itvdn.exe.config
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\bin\Debug\01_StylesAndResorses_itvdn.exe
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\bin\Debug\01_StylesAndResorses_itvdn.pdb
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\obj\Debug\MainWindow.g.cs
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\obj\Debug\App.g.cs
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\obj\Debug\01_StylesAndResorses_itvdn_MarkupCompile.cache
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\obj\Debug\01_StylesAndResorses_itvdn_MarkupCompile.lref
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\obj\Debug\MainWindow.baml
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\obj\Debug\01_StylesAndResorses_itvdn.g.resources
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\obj\Debug\_01_StylesAndResorses_itvdn.Properties.Resources.resources
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\obj\Debug\01_StylesAndResorses_itvdn.csproj.GenerateResource.cache
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\obj\Debug\01_StylesAndResorses_itvdn.csproj.CoreCompileInputs.cache
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\obj\Debug\01_StylesAndResorses_itvdn.exe
+E:\C# Lessons\Styles And Triggers WPF\01_StylesAndResorses_itvdn\obj\Debug\01_StylesAndResorses_itvdn.pdb

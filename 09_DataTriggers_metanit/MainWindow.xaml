@@ -1,0 +1,40 @@
+﻿<Window x:Class="_09_DataTriggers_metanit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_09_DataTriggers_metanit"
+        mc:Ignorable="d"
+       Title="DataTriger" Height="250" Width="500">
+
+
+    <Window.Resources>
+
+        <Style TargetType="Button">
+            <Style.Triggers>
+
+                <DataTrigger Binding="{Binding ElementName=checkBox1, Path=IsChecked}"  Value="True">
+                    <Setter Property="IsEnabled" Value="False"/>
+                </DataTrigger>
+
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="Control.IsFocused" Value="True"/>
+                        <Condition Property="Control.IsMouseOver" Value="True"/>
+                    </MultiTrigger.Conditions>
+                    <MultiTrigger.Setters>
+                        <Setter Property="FontSize" Value="20"/>
+                        <Setter Property="Background" Value="Yellow"/>
+                    </MultiTrigger.Setters>
+                </MultiTrigger>
+            </Style.Triggers>
+
+        </Style>
+    </Window.Resources>
+
+
+    <StackPanel >
+        <CheckBox x:Name="checkBox1" Content="Disable" />
+        <Button x:Name="button1" Content="Кнопка 1" />
+    </StackPanel>
+</Window>

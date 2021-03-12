@@ -1,0 +1,15 @@
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\bin\Debug\11_MyTests_1.exe.config
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\bin\Debug\11_MyTests_1.exe
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\bin\Debug\11_MyTests_1.pdb
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\obj\Debug\MainWindow.g.cs
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\obj\Debug\App.g.cs
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\obj\Debug\11_MyTests_1_MarkupCompile.cache
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\obj\Debug\11_MyTests_1_MarkupCompile.lref
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\obj\Debug\MainWindow.baml
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\obj\Debug\11_MyTests_1.g.resources
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\obj\Debug\_11_MyTests_1.Properties.Resources.resources
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\obj\Debug\11_MyTests_1.csproj.GenerateResource.cache
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\obj\Debug\11_MyTests_1.csproj.CoreCompileInputs.cache
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\obj\Debug\11_MyTests_1.exe
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\obj\Debug\11_MyTests_1.pdb
+E:\C# Lessons\Styles And Triggers WPF\11_MyTests_1\obj\Debug\11_MyTests_1.csprojAssemblyReference.cache

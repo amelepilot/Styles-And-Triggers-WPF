@@ -1,0 +1,120 @@
+﻿<Window x:Class="_01_StylesAndResorses_itvdn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_01_StylesAndResorses_itvdn"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight">
+
+
+
+    <!--
+            Просто пример применения стилей, в данном случае к кнопке и приминение \
+            1юПросмотреть и добавить картинку еа фон кнопки
+    -->
+
+    <Window.Resources>
+
+        <!--Об]явление стиля с ключоv x:Key="stule_button1"-->
+        <Style x:Key="style_button1">
+            <Setter Property="Button.FontFamily" Value="Times New Roman" />
+            <Setter Property="Button.FontSize" Value="14" />
+            <Setter Property="Button.FontWeight" Value="Bold" />
+            <Setter Property="Button.Margin" Value="3" />
+        </Style>
+
+        <!--НАСЛЕДОВАНИЕ СТИЛЕЙ-->
+        <!--Имеем базовай стиль с ключом x:Key="style_buttonBig"-->
+        <Style x:Key="style_controlBig">
+            <Setter Property="Control.FontFamily" Value="Times New Roman" />
+            <Setter Property="Control.FontSize" Value="16" />
+            <Setter Property="Control.FontWeight" Value="Bold" />
+            <Setter Property="Control.Margin" Value="3" />
+            <Setter Property="Control.Width" Value="400"/>
+        </Style>
+
+        <!--Стиль для кнопки меняющий её цвет-->
+        <Style x:Key="style_button2" 
+               BasedOn="{StaticResource style_controlBig}">
+            <!--BasedOn-->
+            <Setter Property="Control.Foreground" Value="Green" />
+            <Setter Property="Control.Background" Value="LightYellow" />
+        </Style>
+
+        <!--ПРИМЕНЕНИЕ СТИЛЯ КО ВСЕМ И ОБНУЛЕНИЕ ЕГОЛЛ.-->
+        <Style TargetType="Button">
+            <!--TargetType="Button" применяет ко всем кнопкам следуйщие свойства-->
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="MaxWidth" Value="300"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+
+        <!--ПРИМЕНЕНИЕ К КНОПКЕ КАРТИКИ В ВИДЕ ФОНА-->
+        <Style  x:Key="style_ButtonImage" TargetType="Control">
+            <Setter Property="Height" Value="100"/>
+            <Setter Property="MaxWidth" Value="300"/>
+            <Setter Property="Control.FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="AliceBlue"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <!--Ему оказывается пофиг какими буквами писать - проверить-->
+                    <ImageBrush ImageSource="ezhik_trava.jpg" ></ImageBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+
+
+    <!--ТЕЛО-->
+    <StackPanel Margin="2">
+        <Button Content=" Первая кнопка со статическим стилем" 
+                Style="{StaticResource style_button1}"/>
+        <Button Content=" Вторая кнопка с  изменненнной длиной и шрифтом" 
+                Style="{StaticResource style_button1}"
+                FontStyle="Oblique"
+                Width="350"/>
+
+        <!--Применение стилей напрямую к каждой кнопке-->
+        <Button Content=" Базовый стиль для контрола (увеличенный)" Style="{StaticResource style_controlBig}"/>
+        <Label Content="применим к данной Label базовый стиль." Style="{StaticResource style_controlBig}"></Label>
+        
+        <Label Content=", далее кнопка от другово статич рессурса" Style="{x:Null}"></Label>
+        <Button Content=" Наследует стиль прдидущей кнопки" Style="{StaticResource style_button2}"/>
+
+        <Label Content="Label  со значением Style= x:Null выглядит так." Style="{x:Null}"></Label>
+        <!--Применение TargetType-->
+        <Button Content="  Кнопка работает от TargetType=Button" />
+        <Button Content="  Кнопка работает от TargetType=Button" />
+        <Button Content="  Кнопка работает от TargetType=Button" />
+
+        <Label Content="добавим к стилю кнопки статический ресурс в виде картинки" Style="{x:Null}"
+               ToolTip="Надо перенасти файл картинки в паку, и настроить свойство, добавить в ресурсы при компиляции"></Label>
+        
+        <!--Применение рисунка как фона к кнопке-->
+        <Button Content=" Кнопка с рисунком" Style="{StaticResource style_ButtonImage}"/>
+        
+        
+        <!--Можно подключить ресурс с картинкой напрямую-->
+        <Button x:Name="button9" >
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Button"/>
+                <Image Source="ezhik_trava.jpg" Margin="5,0,0,0" />
+            </StackPanel>
+        </Button>
+
+        <Button x:Name="button4"  >
+            <WrapPanel>
+                <Image Source="ezhik_trava.jpg" Width="100" Height="40"/>
+                <TextBlock Text="ежик в стекпэнеле"/>
+            </WrapPanel>
+        </Button>
+
+
+
+
+    </StackPanel>
+</Window>
+

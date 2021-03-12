@@ -1,0 +1,44 @@
+﻿<Window x:Class="_06_Styles_metanit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_06_Styles_metanit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="400">
+
+
+    <Window.Resources>
+        <!--Стиль с TaegetType-->
+        <Style TargetType="Button" >
+            <Setter Property="Control.FontFamily" Value="Verdana" />
+            <Setter Property="Control.Background" Value="Black" />
+            <Setter Property="Control.Foreground" Value="White" />
+            <Setter Property="Control.Margin" Value="10" />
+        </Style>
+
+        <!--Стиль с обработчиком-->
+        <Style x:Key="Button2">
+            <Setter Property="Button.Background" Value="DarkGoldenrod" />
+            <Setter Property="Button.Foreground" Value="Black" />
+            <Setter Property="Button.FontFamily" Value="Andy" />
+            <Setter Property="Button.Margin" Value="8" />
+            <EventSetter Event="Button.Click" Handler="Button_Click" />
+        </Style>
+
+
+
+    </Window.Resources>
+
+
+    <StackPanel x:Name="buttonsStack" Background="Black" Width="300">
+        <Button x:Name="button1" Content="Кнопка 1"                />
+        <Button x:Name="button2" Content="Кнопка 2"               />
+        <Button x:Name="button3" Content="Кнопка 3" 
+                Style="{StaticResource Button2}"
+               />
+        <Button x:Name="button4" Content="Кнопка 4" 
+                Style="{StaticResource Button2}"
+               />
+    </StackPanel>
+</Window>

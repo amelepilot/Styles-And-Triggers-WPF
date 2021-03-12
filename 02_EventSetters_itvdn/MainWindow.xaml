@@ -1,0 +1,88 @@
+﻿<Window x:Class="_02_EventSetters_itvdn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_02_EventSetters_itvdn"
+        mc:Ignorable="d"
+         Title="EventSetters - " SizeToContent="WidthAndHeight">
+
+    <!--
+            Пример стиля, с обработчиком события wpf
+            //применение к листбокса далее доработать и посмотреть как это в кодбиханде работает
+    -->
+
+    <Window.Resources>
+
+        <Style x:Key="style_EventMouse" >
+            <Setter Property="TextBlock.Height" Value="40"/>
+            <Setter Property="TextBlock.MinWidth" Value="100"/>
+            <Setter Property="TextBlock.Padding" Value="1"/>
+            <Setter Property="TextBlock.FontSize" Value="14"/>
+
+            <!--Обрати внимание на запись:   TextBlock.MouseEnter  (это важно, есть варианты когда не работает с TargetTyepom)-->
+            <EventSetter Event="TextBlock.MouseEnter"
+                         Handler="Element_MouseEnter"/>
+            <EventSetter Event="TextBlock.MouseLeave"
+                         Handler="Element_MouseLeave"/>
+            <!--Event= -допустимое событие с контролом
+                        Handler обработчик этого события в кодбиханде-->
+        </Style>
+
+        
+        <!--Сделаю свой стиль для баттона-->
+        <Style x:Key="style_Button1" >
+            <Setter Property="Button.FontSize" Value="15"/>
+            <Setter Property="Button.Height" Value="30"/>
+            <Setter Property="Button.Width" Value="120"/>
+            <Setter Property="Button.Margin" Value="5"/>
+            <EventSetter Event="Button.MouseEnter"
+                         Handler="Control_MouseEnter"/>
+            <EventSetter Event="Button.MouseLeave"
+                         Handler="Control_MouseLeave"/>
+            <EventSetter Event="Button.MouseDown"
+                         Handler="Control_MouseTest3"/>
+        </Style>
+
+
+    </Window.Resources>
+
+
+
+    <!--ТЕЛО-->
+    <StackPanel>
+        <Label Content=" Пример стиля, с обработчиком события в кодбиханде:"/>
+        <TextBlock Text="Обычный текстблок с обычным кодом. Без стилей и таргеттайпов." Margin="10"/>
+
+        <TextBlock Text="Обычный текстблок с обычным кодом, но уже со стилем EventSetter"
+                   Style="{StaticResource style_EventMouse}"/>
+        <TextBlock Text="Текстблок со стилем EventSetter"
+                   Style="{StaticResource style_EventMouse}"/>
+        <TextBlock Text="Текстблок со стилем EventSetter"
+                   Style="{StaticResource style_EventMouse}"/>
+        <TextBlock Text="Еекстблок со стилем EventSetter"
+                   Style="{StaticResource style_EventMouse}"/>
+
+        <!--Импровизация с обработчиком баттона-->
+        <WrapPanel>
+            <Button Content="Первая кнопка" Style="{StaticResource style_Button1}"/>
+            <Button Content="Вторая кнопка" Style="{StaticResource style_Button1}"/>
+            <Button Content="Третья кнопка" Style="{StaticResource style_Button1}"/>
+            
+        </WrapPanel>
+        
+        <StackPanel>
+            <ListBox  Height="200">
+
+                <TextBlock Text="апыапыапвпв" Style="{StaticResource style_EventMouse}"   Height="20"/>
+                <TextBlock Text="апыапыапвпв 1" Style="{StaticResource style_EventMouse}" Height="20"/>
+                <TextBlock Text="апыапыапвпв 2" Style="{StaticResource style_EventMouse}" Height="20"/>
+                <TextBlock Text="апыапыапвпв 3" Style="{StaticResource style_EventMouse}" Height="20"/>
+                <TextBlock Text="апыапыапвпв 4" Style="{StaticResource style_EventMouse}" Height="20"/>
+                <TextBlock Text="апыапыапвпв 5" Style="{StaticResource style_EventMouse}" Height="20"/>
+                <TextBlock Text="апыапыапвпв 6" Style="{StaticResource style_EventMouse}" Height="20"/>
+                    </ListBox>  
+            
+        </StackPanel>
+    </StackPanel>
+</Window>

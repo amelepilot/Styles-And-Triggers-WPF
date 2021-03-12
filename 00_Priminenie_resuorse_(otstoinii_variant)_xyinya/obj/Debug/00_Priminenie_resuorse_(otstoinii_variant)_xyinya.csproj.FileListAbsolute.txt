@@ -1,0 +1,15 @@
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\obj\Debug\App.g.cs
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\obj\Debug\00_Priminenie_resuorse_(otstoinii_variant)_xyinya_MarkupCompile.cache
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\bin\Debug\00_Priminenie_resuorse_(otstoinii_variant)_xyinya.exe.config
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\bin\Debug\00_Priminenie_resuorse_(otstoinii_variant)_xyinya.exe
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\bin\Debug\00_Priminenie_resuorse_(otstoinii_variant)_xyinya.pdb
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\obj\Debug\MainWindow.g.cs
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\obj\Debug\00_Priminenie_resuorse_(otstoinii_variant)_xyinya_MarkupCompile.lref
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\obj\Debug\MainWindow.baml
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\obj\Debug\00_Priminenie_resuorse_(otstoinii_variant)_xyinya.g.resources
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\obj\Debug\_00_Priminenie_resuorse__otstoinii_variant__xyinya.Properties.Resources.resources
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\obj\Debug\00_Priminenie_resuorse_(otstoinii_variant)_xyinya.csproj.GenerateResource.cache
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\obj\Debug\00_Priminenie_resuorse_(otstoinii_variant)_xyinya.csproj.CoreCompileInputs.cache
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\obj\Debug\00_Priminenie_resuorse_(otstoinii_variant)_xyinya.exe
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\obj\Debug\00_Priminenie_resuorse_(otstoinii_variant)_xyinya.pdb
+E:\C# Lessons\Styles And Triggers WPF\00_Priminenie_resuorse_(otstoinii_variant)_xyinya\obj\Debug\00_Priminenie_resuorse_(otstoinii_variant)_xyinya.csprojAssemblyReference.cache
