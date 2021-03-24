@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_EventTriggers_itvdn", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_ThemeMyTest", "10_ThemeMyTest\10_ThemeMyTest.csproj", "{AD9DF2C5-5D38-4EF6-A8BD-84C6B8534799}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_ControlTemplate_metanit", "11_ControlTemplate_metanit\11_ControlTemplate_metanit.csproj", "{674AD4B8-8594-4EA5-9489-A5B952990DDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{AD9DF2C5-5D38-4EF6-A8BD-84C6B8534799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD9DF2C5-5D38-4EF6-A8BD-84C6B8534799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD9DF2C5-5D38-4EF6-A8BD-84C6B8534799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674AD4B8-8594-4EA5-9489-A5B952990DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674AD4B8-8594-4EA5-9489-A5B952990DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674AD4B8-8594-4EA5-9489-A5B952990DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674AD4B8-8594-4EA5-9489-A5B952990DDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\bin\Debug\11_ControlTemplate_metanit.exe.config
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\bin\Debug\11_ControlTemplate_metanit.exe
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\bin\Debug\11_ControlTemplate_metanit.pdb
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\obj\Debug\MainWindow.g.cs
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\obj\Debug\App.g.cs
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\obj\Debug\11_ControlTemplate_metanit_MarkupCompile.cache
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\obj\Debug\11_ControlTemplate_metanit_MarkupCompile.lref
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\obj\Debug\MainWindow.baml
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\obj\Debug\11_ControlTemplate_metanit.g.resources
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\obj\Debug\_11_ControlTemplate_metanit.Properties.Resources.resources
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\obj\Debug\11_ControlTemplate_metanit.csproj.GenerateResource.cache
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\obj\Debug\11_ControlTemplate_metanit.csproj.CoreCompileInputs.cache
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\obj\Debug\11_ControlTemplate_metanit.exe
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\obj\Debug\11_ControlTemplate_metanit.pdb
+E:\C# Lessons\Styles And Triggers WPF\11_ControlTemplate_metanit\obj\Debug\11_ControlTemplate_metanit.csprojAssemblyReference.cache

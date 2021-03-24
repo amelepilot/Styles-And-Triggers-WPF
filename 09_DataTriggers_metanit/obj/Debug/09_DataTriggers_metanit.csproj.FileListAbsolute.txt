@@ -12,3 +12,4 @@ E:\C# Lessons\Styles And Triggers WPF\09_DataTriggers_metanit\obj\Debug\09_DataT
 E:\C# Lessons\Styles And Triggers WPF\09_DataTriggers_metanit\obj\Debug\09_DataTriggers_metanit.csproj.CoreCompileInputs.cache
 E:\C# Lessons\Styles And Triggers WPF\09_DataTriggers_metanit\obj\Debug\09_DataTriggers_metanit.exe
 E:\C# Lessons\Styles And Triggers WPF\09_DataTriggers_metanit\obj\Debug\09_DataTriggers_metanit.pdb
+E:\C# Lessons\Styles And Triggers WPF\09_DataTriggers_metanit\obj\Debug\09_DataTriggers_metanit.csprojAssemblyReference.cache
